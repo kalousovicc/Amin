@@ -975,7 +975,14 @@ ol {
 	padding-top: 160px;
 	margin-bottom: 50px;
 }
-
+.lol-section{
+	position: relative;
+	padding: 160px 0;
+}
+.lol{
+	position:relative;
+	z-index: 9;
+}
 .hs-text .label {
 	display: inline-block;
 	padding: 4px 7px 4px 12px;
@@ -3921,10 +3928,16 @@ ol {
 	background: linear-gradient(180deg, #80CED7, #9AD1D4);
 }
 
+.card.purple{
+	background: linear-gradient(180deg, #a670c5, #a05cb4);
+}
+.card.blue{
+	background: linear-gradient(180deg, #1609cf, #7c7ae9);
+}
 
-
-
-
+.card.yellow{
+	background: linear-gradient(180deg, #e7e415, #d7e78f);
+}
 
 
 

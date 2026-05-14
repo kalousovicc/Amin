@@ -609,6 +609,10 @@ ol {
 	margin-left: 9px;
 }
 
+.logo img {
+	height: 65px;
+}
+
 .logo {
 	background: #0d0d0d;
 	padding: 44px 0;
@@ -619,7 +623,7 @@ ol {
 }
 
 .nav-options {
-	background: #312d2d;
+	background: #2D2E2E;
 	padding: 10px 0;
 }
 
@@ -1134,6 +1138,56 @@ ol {
 .hero-slider .hs-item {
 	height: 100%;
 }
+
+/*-------------------------
+  Game Card section
+-------------------------*/
+
+.breadcrumb-section {
+	background: #363636;
+	min-height: 50vh;
+}
+
+.game-card {
+	max-width: 520px;
+	margin: 0 auto;
+	background: #2D2E2E;
+	border-radius: 10px;
+	overflow: hidden;
+	transition: all 0.35s ease;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.game-card:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+.game-card img {
+	width: 100%;
+	height: 420px;
+	object-fit: cover;
+}
+
+.game-card .card-body {
+	background: #1a1a1a;
+}
+
+.game-card h2 {
+	font-size: 60px;
+	letter-spacing: 20px;
+}
+
+.game-card h3 {
+	font-size: 28px;
+	letter-spacing: 1px;
+}
+
+.game-card p {
+	color: #bdbdbd;
+	line-height: 1.7;
+}
+
 
 /*-------------------------
   Latest Preview Section
